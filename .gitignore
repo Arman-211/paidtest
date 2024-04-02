@@ -1,0 +1,31 @@
+# Ignore system files
+.DS_Store
+
+# Ignore IDE settings
+.idea/
+
+# Ignore Composer files
+composer.lock
+/vendor/
+
+# Ignore npm/node.js dependencies
+node_modules/
+
+# Ignore Laravel specific directories and files
+bootstrap/
+storage/
+public/
+
+# Ignore Laravel configuration files
+/config/*.php
+
+# Ignore Laravel generated files
+/artisan
+/phpunit.xml
+vite.config.js
+
+# Ignore Laravel directories
+/database/
+/resources/
+/routes/
+/tests/
